@@ -3,7 +3,6 @@ package collections.set;
 import java.util.*;
 
 public class DifferentSets {
-/* <<<<<<<<<<<<<<  ✨ Windsurf Command ⭐ >>>>>>>>>>>>>>>> */
     /**
      * Demonstrates the behavior of different Set implementations in Java: HashSet, LinkedHashSet, and TreeSet.
      *
@@ -20,8 +19,6 @@ public class DifferentSets {
      *
      * @param args command line arguments (not used)
      */
-
-/* <<<<<<<<<<  97abe92b-31e0-4779-bbd3-1ed290b50280  >>>>>>>>>>> */
     public static void main(String[] args) {
         Random random = new Random();
         Set<Integer> hashSet = new HashSet<Integer>();

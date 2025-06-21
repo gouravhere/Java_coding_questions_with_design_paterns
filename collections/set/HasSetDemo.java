@@ -3,7 +3,6 @@ package collections.set;
 import java.util.*;
 
 public class HasSetDemo {
-/* <<<<<<<<<<<<<<  ✨ Windsurf Command ⭐ >>>>>>>>>>>>>>>> */
     /**
      * A main method that demonstrates the differences between a List and a Set.
      * <p>
@@ -17,7 +16,6 @@ public class HasSetDemo {
      * which is that it removes all duplicate elements from a collection.
      * @param args command line arguments (not used)
      */
-/* <<<<<<<<<<  80749da6-409d-42c9-b302-d0d9425ff457  >>>>>>>>>>> */
     public static void main(String[] args) {
         Random random = new Random();
         List<Object> objects = new ArrayList<Object>();
