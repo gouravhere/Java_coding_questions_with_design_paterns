@@ -14,6 +14,15 @@ class callableTask implements Callable<String>{
 	{
 		this.name = name;
 	}
+/* <<<<<<<<<<<<<<  ✨ Windsurf Command ⭐ >>>>>>>>>>>>>>>> */
+	/**
+	 * Computes a greeting message after a delay.
+	 *
+	 * @return A greeting message that includes the name provided during task initialization.
+	 * @throws Exception if the thread is interrupted while sleeping.
+	 */
+
+/* <<<<<<<<<<  e4a8c42a-8680-4862-920a-8de784d8ee30  >>>>>>>>>>> */
 	@Override
 	public String call() throws Exception {
 		Thread.sleep(1000);
@@ -25,6 +34,20 @@ class callableTask implements Callable<String>{
 
 public class CallableRunner {
 	
+/* <<<<<<<<<<<<<<  ✨ Windsurf Command ⭐ >>>>>>>>>>>>>>>> */
+    /**
+     * The main method demonstrates the use of an ExecutorService to execute Callable tasks
+     * and retrieve results. It submits a single Callable task that returns a greeting message
+     * and prints the result. It then creates a list of Callable tasks and uses
+     * `invokeAny` to execute all tasks, printing the result of the fastest task to complete.
+     * Finally, it shuts down the executor service.
+     *
+     * @param args command line arguments
+     * @throws InterruptedException if the current thread was interrupted while waiting
+     * @throws ExecutionException if the computation threw an exception
+     */
+
+/* <<<<<<<<<<  efa408ef-2449-4168-9404-5a512996f6bb  >>>>>>>>>>> */
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 	
 		ExecutorService executorService = Executors.newFixedThreadPool(1);

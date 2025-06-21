@@ -4,6 +4,20 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class Example {
+/* <<<<<<<<<<<<<<  ✨ Windsurf Command ⭐ >>>>>>>>>>>>>>>> */
+/**
+ * The main method demonstrates sorting operations using both arrays and custom objects.
+ *
+ * It performs the following tasks:
+ * 1. Sorts an integer array using the traditional Arrays.sort method and prints the sorted array.
+ * 2. Creates an array of Employee objects and sorts them using:
+ *    - The Comparable interface for natural sorting by employee ID.
+ *    - A custom Comparator for sorting by employee name.
+ *
+ * @param args the command line arguments (not used in this method)
+ */
+
+/* <<<<<<<<<<  58c5ea8e-a163-40b8-8c82-9570c82f6981  >>>>>>>>>>> */
 public static void main (String [] args) {
 	//Traditional way to sort 
 	int arr[] = {1,3,4,2,6,5};

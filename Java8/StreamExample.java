@@ -6,6 +6,14 @@ import java.util.stream.Collectors;
 
 public class StreamExample {
 
+/* <<<<<<<<<<<<<<  ✨ Windsurf Command ⭐ >>>>>>>>>>>>>>>> */
+	/**
+	 * A demonstration of using the Stream API to compute the sum of the even numbers in an array.
+	 *
+	 * @param args
+	 *            command line arguments (not used)
+	 */
+/* <<<<<<<<<<  b1072718-8f77-4a43-8adc-08bd15e96a05  >>>>>>>>>>> */
 	public static void main(String[] args) {
 		// basic approach or imperative approach
 		int[] array = { 1, 2, 3, 4, 5, 6 };
