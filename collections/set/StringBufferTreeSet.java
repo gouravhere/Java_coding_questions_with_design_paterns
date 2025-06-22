@@ -1,5 +1,7 @@
 package collections.set;
 
+import collections.comparator.StringBufferComparator;
+
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -20,7 +22,8 @@ public class StringBufferTreeSet {
 
 /* <<<<<<<<<<  688ce92c-ce7a-4968-8c68-fed8bdaf0eb5  >>>>>>>>>>> */
     public static void main(String[] args) {
-        Set<StringBuffer> treeSet = new TreeSet<StringBuffer>();
+        // Set<StringBuffer> treeSet = new TreeSet<StringBuffer>(); // we can do this in two ways
+        Set<StringBuffer> treeSet = new TreeSet<StringBuffer>(new StringBufferComparator());
         treeSet.add(new StringBuffer("I"));
         treeSet.add(new StringBuffer("J"));
         treeSet.add(new StringBuffer("A"));

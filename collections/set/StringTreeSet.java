@@ -1,5 +1,7 @@
 package collections.set;
 
+import collections.comparator.StringComprator;
+
 import java.util.TreeSet;
 
 public class StringTreeSet {
@@ -16,21 +18,21 @@ public class StringTreeSet {
      * @param args command line arguments (not used)
      */
     public static void main(String[] args) {
-        TreeSet<String> treeSet = new TreeSet<String>();
+        TreeSet<String> treeSet = new TreeSet<String>(new StringComprator());
         treeSet.add("I");
-        treeSet.add("J");
-        treeSet.add("A");
-        treeSet.add("C");
-        treeSet.add("G");
-        treeSet.add("H");
-        treeSet.add("B");
-        treeSet.add("D");
-        treeSet.add("E");
-        treeSet.add("F");
+        treeSet.add("JGSDS");
+        treeSet.add("AGDGFD");
+        treeSet.add("CGGFFV");
+        treeSet.add("GHHHHTSTS");
+        treeSet.add("HS");
+        treeSet.add("BFF");
+        treeSet.add("DSDSADADDASD");
+        treeSet.add("EASDASD");
+        treeSet.add("FSADAD");
         for (String s : treeSet) {
             System.out.println(s);
         }
-        System.out.println(treeSet);
+       // System.out.println(treeSet);
 
 
     }
