@@ -26,5 +26,16 @@ public class TypeCastingDemo {
         System.out.println(name2);
        // String name3 = (String) list.get(2);
 
+
+        //Using Custom Generic
+        MyCustomGeneric<String> myCustomGeneric = new MyCustomGeneric<>("Gourav");
+        System.out.println(myCustomGeneric.getObj());
+
+        MyCustomGeneric<Integer> myCustomGeneric2 = new MyCustomGeneric<>(10);
+        System.out.println(myCustomGeneric2.getObj());
+
+        MyCustomGeneric<Double> myCustomGeneric3 = new MyCustomGeneric<>(10.0);
+        System.out.println(myCustomGeneric3.getObj());
+
     }
 }
