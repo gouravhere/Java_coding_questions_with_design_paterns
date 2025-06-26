@@ -16,7 +16,7 @@ public class TwoSum {
      * If not, add the current element and its index to the HashMap.
      */
     public static void main (String[] args){
-        int target = 20;
+        int target = 13;
         int[] array = {2,7,13,6,10};
         int[] result = TwoSums(array,target);
         System.out.println(Arrays.toString(result));
