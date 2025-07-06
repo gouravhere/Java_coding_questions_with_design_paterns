@@ -1,4 +1,4 @@
-package Java8;
+package Java8.old;
 
 class ex { 
     static String str; 
