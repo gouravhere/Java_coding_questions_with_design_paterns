@@ -1,6 +1,4 @@
-package DsaForYou;
-
-import java.util.Arrays;
+package DsaForYou.arrays;
 
 //Rotate Array
 /*

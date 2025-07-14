@@ -1,4 +1,4 @@
-package DsaForYou;
+package DsaForYou.arrays;
 
 public class SecondLargest {
     /**

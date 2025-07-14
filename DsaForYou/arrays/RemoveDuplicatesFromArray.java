@@ -1,4 +1,4 @@
-package DsaForYou;
+package DsaForYou.arrays;
 /*
 **Remove Duplicates from Sorted Array**
 

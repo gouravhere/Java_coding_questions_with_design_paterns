@@ -1,4 +1,4 @@
-package DsaForYou;
+package DsaForYou.arrays;
 
 /**
  * Container With Most Water problem solution.
