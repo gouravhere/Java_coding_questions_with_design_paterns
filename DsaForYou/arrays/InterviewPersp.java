@@ -1,9 +1,6 @@
 package DsaForYou.arrays;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * This class demonstrates array operations including:
@@ -25,6 +22,11 @@ public class InterviewPersp {
         int targetDiff = -5; // Changed from -5 to 2 for meaningful example
         System.out.println("\nPairs with difference " + targetDiff + ":");
         findPairsWithDifference(arr, targetDiff);
+
+        // Example 3: Longest even lenght word - String
+
+        String s = "Added proper handling of negative differences by taking the absolute value";
+        findLongestEvenlengthWord(s);
     }
 
     /**
@@ -51,6 +53,31 @@ public class InterviewPersp {
             }
             // Add current number to the set
             seen.add(num);
+        }
+    }
+    /**
+     * Finds and prints the longest word with even length in the given string.
+     * If multiple words have the same maximum even length, returns the first occurrence.
+     * 
+     * @param s The input string to search in
+     */
+    public static void findLongestEvenlengthWord(String s) {
+        String[] words = s.split(" ");
+        String longestEvenWord = "";
+        int maxLength = 0;
+        
+        for (String word : words) {
+            int length = word.length();
+            if (length % 2 == 0 && length > maxLength) {
+                maxLength = length;
+                longestEvenWord = word;
+            }
+        }
+        
+        if (maxLength > 0) {
+            System.out.println("Longest even-length word: " + longestEvenWord + " (Length: " + maxLength + ")");
+        } else {
+            System.out.println("No even-length words found");
         }
     }
 }
