@@ -29,7 +29,6 @@ public class LinkedHashMapDemo {
         map.put("Gourav", 9);
         map.put("Sharma", 10);
         map.put("Sourav", 11);
-        map.put("Amit", 12);
 
         for(Map.Entry<String , Integer> entry : map.entrySet()){
             System.out.println("Key is: "+entry.getKey()+" -- Value is: "+entry.getValue());
