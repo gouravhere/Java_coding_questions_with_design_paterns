@@ -10,6 +10,7 @@ public class ListIterator {
         list.add("Gourav");
         list.add("Sourav");
         list.add("NoName");
+        list.add("Test3");
 
         java.util.ListIterator<String> itr = list.listIterator();
         // Forward traversal
