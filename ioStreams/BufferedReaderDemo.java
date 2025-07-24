@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class BufferedReaderDemo {
     public static void main(String[] args) {
         try (FileReader fr = new FileReader("D:/PersonalProjects/ioStreams.txt");
-             BufferedReader br = new BufferedReader(fr);) {
+             BufferedReader br = new BufferedReader(fr)) {
             int count = 0;
             String line;
             try {
