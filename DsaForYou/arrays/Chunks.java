@@ -2,7 +2,7 @@ package DsaForYou.arrays;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//Asked in Wissen
 /*
 Given an array arr and a chunk size size, return a chunked array.
 
