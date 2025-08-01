@@ -19,7 +19,7 @@ import java.util.Set;
  *   <li>Instant: A point on the time-line, useful for machine time</li>
  *   <li>Duration: A time-based amount of time, such as '34.5 seconds'</li>
  * </ul>
- * 
+ * :
  * <p><b>Interview Questions This Example Helps With:</b>
  * <ol>
  *   <li>What are the main classes in Java 8 Date/Time API?</li>
