@@ -1,5 +1,7 @@
 package Java8.latest.lamdas;
 
+import java.util.function.BiPredicate;
+
 /**
  * A test class that demonstrates the usage of lambda expressions with a functional interface.
  * This class shows how to implement the Sum functional interface using a lambda expression
@@ -19,5 +21,6 @@ public class TestSum {
         
         // Invoke the sum method with two integer arguments
         s.sum(10, 20);  // This will print: Sum is 30
+
     }
 }
