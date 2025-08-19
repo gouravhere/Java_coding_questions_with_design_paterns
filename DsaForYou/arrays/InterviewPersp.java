@@ -1,6 +1,8 @@
 package DsaForYou.arrays;
 
 import java.util.*;
+import java.util.function.BiFunction;
+import java.util.function.BiPredicate;
 
 /**
  * This class demonstrates array operations including:
@@ -17,6 +19,9 @@ public class InterviewPersp {
                         .reduce(0, Integer::sum);
         System.out.println("Sum of squares of odd numbers: " + sum);
 
+        BiFunction<Integer,Integer,Integer> sumT = (a, b)-> a+b;
+        System.out.println(sumT.apply(5,8));
+        //test
         // Example 2: Find pairs with given difference
         int[] arr = {1, 2, 3, 4, 5, 6};
         int targetDiff = -5; // Changed from -5 to 2 for meaningful example
