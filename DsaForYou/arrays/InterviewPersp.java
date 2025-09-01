@@ -2,7 +2,6 @@ package DsaForYou.arrays;
 
 import java.util.*;
 import java.util.function.BiFunction;
-import java.util.function.BiPredicate;
 
 /**
  * This class demonstrates array operations including:
