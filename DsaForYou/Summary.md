@@ -20,7 +20,7 @@ This README summarizes all the DSA topics and problems you have covered in the `
   int min = prices[0], profit = 0;
   for (int p : prices) {
       min = Math.min(min, p);
-      profit = Math.max(profit, p - min);
+      profit = Math.max(profit, p - min) ;
   }
   
 - **TwoSum**: Find indices of two numbers that add up to a target. (HashMap for O(n) lookup)
